@@ -72,7 +72,7 @@ h3 {
       background-position: 200px 200px;
   }
 }
-/* For Webkit browsers (Chrome, Safari) */
+
 ::-webkit-scrollbar {
 width: 10px;
 }
@@ -89,7 +89,7 @@ border-radius: 10px;
 ::-webkit-scrollbar-thumb:hover {
 background: linear-gradient(to right, #a63af9, #f48fb1);
 }
-/* For Firefox */
+
 * {
   scrollbar-width: thin;
   scrollbar-color: linear-gradient(to right, #a63af9, #f48fb1) transparent;
