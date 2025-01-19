@@ -132,7 +132,7 @@ border-bottom-color: rgba(0,0,0,0.1)
 }
 @keyframes heartBlink {
   0%, 100% {
-       color:  #f44336; /* Ярко красный цвет */
+       color:  #f44336; 
       transform: translateY(0) scale(1);
 
   }
