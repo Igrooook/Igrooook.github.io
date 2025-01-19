@@ -22,13 +22,13 @@
 .link-button:hover {
     background: linear-gradient(135deg, #f48fb1 0%,#a63af9 100% );
     transform: translateY(-3px);
-    animation: pulse 1.5s infinite, dynamic-shadow 0.5s linear forwards, blinkText 1.5s ease infinite;  /* Применяем  тексту,  */
+    animation: pulse 1.5s infinite, dynamic-shadow 0.5s linear forwards, blinkText 1.5s ease infinite; 
     box-shadow: 0 5px 20px rgba(128, 0, 128, 0.4);
 }
 .app-container.light-theme .link-button:hover {
      background: linear-gradient(135deg, #bdbdbd 0%,#a0a0a0 100% );
        box-shadow: 0 5px 20px rgba(158,158,158, 0.4);
-        animation: pulse-light 1.5s infinite, dynamic-shadow 0.5s linear forwards, blinkText 1.5s ease infinite; /* Применяем к тексту */
+        animation: pulse-light 1.5s infinite, dynamic-shadow 0.5s linear forwards, blinkText 1.5s ease infinite;
 }
 .link-button::before {
     content: "";
