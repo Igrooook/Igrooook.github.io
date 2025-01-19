@@ -6,7 +6,7 @@
   color: #eee;
    box-shadow: 5px 5px 20px rgba(128, 0, 128, 0.1);
   position: relative;
-transform-style: preserve-3d; /* Enable 3D transform */
+transform-style: preserve-3d;
   will-change: transform;
 cursor: pointer;
  overflow: hidden;
