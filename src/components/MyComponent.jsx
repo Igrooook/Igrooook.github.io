@@ -1,5 +1,5 @@
 import React from 'react';
-import './MyComponent.css'; // Проверьте, что файл существует
+import './MyComponent.css'; 
 
 function MyComponent({ text }) {
   return (
