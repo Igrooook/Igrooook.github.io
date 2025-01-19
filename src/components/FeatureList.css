@@ -2,14 +2,14 @@
     padding: 60px 20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.03);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Разделительная линия */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .features-section h2 {
     font-size: 3rem;
     margin-bottom: 50px;
     color: #fff;
-     text-shadow: 0 0 10px #a63af9; /* Свечение для заголовка */
+     text-shadow: 0 0 10px #a63af9;
 }
 
 .features-grid {
@@ -17,8 +17,8 @@
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 40px;
     padding: 0 20px;
-    position: relative; /* Для позиционирования свечения */
-    overflow: hidden; /* Для обрезания эффектов свечения */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .features-grid::before {
