@@ -7,7 +7,7 @@ function Header({ scrollToSection, heroRef, featuresRef}) {
     return (
         <header className="header">
             <a href="/" className="header-logo">
-                 <img src="https://media.discordapp.net/attachments/1290700090650132571/1329741242971459607/photo_2024-12-31_16-29-21.jpg?ex=678cc309&is=678b7189&hm=03e3b7a0768e7389095c35dd6c54e5d7500216340c1fdf557b75ff4b13109d16&=&format=webp&width=662&height=662" alt="Lunar Avatar" className="header-logo-img" loading="lazy"/>
+                 <img src="../../assets/avatar.jpg" alt="Lunar Avatar" className="header-logo-img" loading="lazy"/>
             </a>
             <nav className="header-nav">
                 <a href="#" className="header-link" onClick={() => scrollToSection(heroRef)}>
