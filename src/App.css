@@ -12,9 +12,9 @@
     cursor: auto;
     transition: filter 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
-.app-container.blurred {
+/*.app-container.blurred {
     filter: blur(0.5px);
-}
+}*/
 @keyframes page-fade-in {
     to{
          opacity: 1;
